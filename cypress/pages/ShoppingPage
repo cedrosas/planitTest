@@ -1,0 +1,10 @@
+class ShoppingPage {
+    elements = {
+        goToCart: () => cy.xpath('//a[@href="#/cart"]'),
+    }
+
+    gotToCart() {
+        this.elements.goToCart().click();
+    }
+}
+module.exports = new ShoppingPage();
