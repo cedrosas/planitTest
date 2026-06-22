@@ -2,7 +2,8 @@
   "baseUrl": "http://jupiter.cloud.planittesting.com",
   "forename": "Testuser",
   "email": "Testuser@gmail.com",
-  "message": "this is a sample message"
+  "message": "this is a sample message",
+  "newTest": "newTest"
 
 
 }
