@@ -9,7 +9,7 @@
     "mochawesome-report-generator": "^6.3.2"
   },
   "scripts": {
-  "report:merge": "mochawesome-merge cypress/results/*.json > cypress/results/merged-report.json",
-  "report:generate": "marge cypress/results/merged-report.json --reportDir cypress/results --inline"
-}
+    "report:merge": "mochawesome-merge cypress/results/*.json > cypress/results/merged-report.json",
+    "report:generate": "marge cypress/results/merged-report.json --reportDir cypress/results --inline --reportFilename index.html"
+  }
 }
